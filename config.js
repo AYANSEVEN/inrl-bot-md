@@ -17,7 +17,7 @@ module.exports = {
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
-    PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
+    PM_BLOCK : toBool(process.env.PM_BLOCK || "true"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
     STATUS_VIEW : process.env.STATUS_VIEW || "false",
